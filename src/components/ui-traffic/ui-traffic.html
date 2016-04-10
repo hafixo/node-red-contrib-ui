@@ -1,0 +1,9 @@
+<div flex layout="row" layout-align="space-between center"
+     class="control-text">
+    <p class="label">{{me.item.label}}</p>
+	<p class="value">{{me.item.getText()}}
+		<img ng-show="me.item.red" src="components/ui-traffic/mono_red_32.png"></img>
+		<img ng-show="me.item.green" src="components/ui-traffic/mono_green_32.png"></img>
+		<img ng-show="me.item.orange" src="components/ui-traffic/mono_blue_32.png"></img>
+	</p>
+</div>
