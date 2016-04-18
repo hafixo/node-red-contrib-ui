@@ -11,7 +11,7 @@ angular.module('ui').directive('uiTraffic', [ '$timeout', '$interpolate',
 				
 					scope.$watch('me.item.value', function (newValue) {
 						newValue = newValue || 'green';
-						scope.me.item.red = scope.me.item.green = scope.me.item.orange = false;
+						scope.me.item.red = scope.me.item.green = scope.me.item.orange = scope.me.item.blue = false;
 						scope.me.item[newValue] = true;
 					});
 				}, 0);
